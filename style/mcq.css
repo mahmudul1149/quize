@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  color: #373434;
+}
+
+.sub-title {
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  margin-top: 15px;
+  color: #373434;
+}
+
+.btn {
+  background: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(5%, -50%);
+  text-align: center;
+}
+
+.details .heading {
+  font-size: 45px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  font-family: "Rosario", sans-serif;
+}
+
+.details .card {
+  background-color: #ffffff;
+  padding: 35px;
+  border-radius: 15px;
+}
+
+.btn.start-btn {
+  width: 400px;
+  height: 70px;
+}
+
+/* MCQ Page Styles */
+main.mcq-page {
+  background-color: #b0b8ff;
+  height: auto;
+  padding: 50px 0px;
+}
+
+.mcq-page .mcq-container {
+  width: 600px;
+  margin: 90px auto 0 auto;
+}
+
+.mcq-page .remaining-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px 20px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+}
+
+.mcq-page .remaining-wrap .finish-btn {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0px;
+  width: 140px;
+  height: 36px;
+}
+
+.mcq-page .remaining-wrap .sub-title {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.mcq-container .question-group {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.mcq-container .question-group:not(:last-child) {
+  margin: 20px 0px;
+}
+
+.mcq-container .question-group .question-heading {
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.mcq-container .question-group .option-block-container {
+  padding-left: 15px;
+}
+
+.mcq-container .question-group .option-block-container span {
+  padding-left: 10px;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+/* Result Page Styles  */
+main.result-page {
+  background-color: #f6d658;
+}
+
+.center-card {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+}
+.radio {
+  font-size: 1.4rem !important;
+}
+
+.center-card img {
+  max-width: 300px;
+}
+
+.btn.start-again {
+  width: 300px;
+  height: 70px;
+}
+
+/* Timeout Page Styles  */
+main.timeout-page {
+  background-color: #f7595a;
+}

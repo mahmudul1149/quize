@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.home-page {
+  background: #e0cabc;
+}
+.bg-secondery {
+  background: #b0b8ff;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-app-container {
+  max-width: 1200px;
+  margin: auto;
+}
+.text-center {
+  text-align: center;
+}
+.btn {
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  border: none;
+  letter-spacing: 2px;
+}
+.margin-t {
+  margin-top: 1rem !important;
+}
+.margin {
+  margin: 0 1.5rem;
+}
+
+.submit {
+  font-family: "Raleway";
+  font-style: normal;
+  width: 100%;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  padding: 0.5rem 0;
+  align-items: center;
+  text-align: center;
+  background: #000;
+  color: #ffffff;
+}
+.item h2 {
+  font-family: Rosario;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.box {
+  background: #ffffff;
+  width: 100%;
+  padding: 2rem;
+  box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.box span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0em;
+
+  text-align: center;
+}
+.box .title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+/* mcq page */
+.mcq-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
+.finish {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 0 1.5rem;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.mcq-page .items {
+  margin-bottom: 2rem;
+}
+.position {
+  position: absolute;
+  top: 0;
+  left: 35%;
+}
+.mcq-page .timer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.mcq-page .timer-box span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 35px;
+  color: #000000;
+}
+.mcq-page .question-box {
+  margin-top: 1rem;
+  width: 550px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.mcq-page .question-box .title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 35px;
+  color: #000000;
+  margin-left: 2px;
+}
+.mcq-page .question-box label {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 1.1rem;
+}
+.mcq-page .question-box .flex label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.mcq-page .flex-title {
+  display: flex;
+  align-items: center;
+}
