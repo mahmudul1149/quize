@@ -18,49 +18,48 @@
 .result-page .box .png {
   text-align: center;
 }
-.result-page .box h2 {
+.result-page .box .title {
   font-family: "Raleway";
   font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: bolder;
+  font-size: 40px;
   line-height: 53px;
   text-align: center;
+
   color: #000000;
 }
-.sub-title {
+#sub-title {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 22px;
   line-height: 29px;
   text-align: center;
-
-  color: #373434;
+  margin: 0.5rem 0;
+  color: #626060;
 }
 #result_score {
+  margin: 0.5rem 0;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 22px;
   line-height: 29px;
   text-align: center;
-
-  color: #373434;
+  color: #626060;
 }
 .result-page .start-again {
   margin-top: 1rem;
-  font-family: "Raleway";
-  font-style: normal;
-  width: 100%;
   font-weight: 600;
+  padding: 0.5rem 0;
   font-size: 20px;
   line-height: 29px;
-  padding: 0.5rem 0;
-  align-items: center;
   text-align: center;
   background: #000;
+  width: 100%;
   color: #ffffff;
-  border-radius: 10px;
+  background: #000000;
+  border-radius: 5px;
 }
 .result .box span {
   font-family: "Raleway";

@@ -18,15 +18,16 @@ main {
 }
 
 .sub-title {
-  font-size: 22px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
-  margin-top: 15px;
-  color: #373434;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
 }
 
 .btn {
-  background: #000000;
+  /* background: #000000;
   color: #ffffff;
   border-radius: 5px;
   font-size: 25px;
@@ -34,7 +35,7 @@ main {
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 25px;
-  cursor: pointer;
+  cursor: pointer; */
 }
 
 .details {
@@ -89,11 +90,14 @@ main.mcq-page {
 }
 
 .mcq-page .remaining-wrap .finish-btn {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 600;
   margin: 0px;
-  width: 140px;
-  height: 36px;
+  width: 150px;
+  height: 45px;
+  border-radius: 5px;
+  background: #000000;
+  color: #ffffff;
 }
 
 .mcq-page .remaining-wrap .sub-title {
@@ -130,7 +134,15 @@ main.mcq-page {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
 }
+#question {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
 
+  color: #000000;
+}
 /* Result Page Styles  */
 main.result-page {
   background-color: #f6d658;
@@ -147,7 +159,12 @@ main.result-page {
   border-radius: 10px;
 }
 .radio {
-  font-size: 1.4rem !important;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
 }
 
 .center-card img {

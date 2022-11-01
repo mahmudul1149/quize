@@ -173,7 +173,7 @@ const setCountDown = (endTime) => {
     return;
   }
 
-  countDown.innerHTML = ` 00 : ${minutes} : ${seconds}`;
+  countDown.innerHTML = ` 00:${minutes}:${seconds}`;
 };
 
 // Setting the countdown timer
